@@ -1,0 +1,30 @@
+.story {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f6f6ef;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: #f6f6ef;
+}
+.story-name {
+  margin-top: 0;
+}
+.story-desc {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* color: #828282 */
+}
+.story-rate {
+  background: rgba(255, 102, 0, 0.3);
+  padding: 5px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+}
+.story:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: all 0.4s;
+}

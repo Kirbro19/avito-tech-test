@@ -1,0 +1,40 @@
+.header {
+  box-shadow: 3px 3px 10px 3px rgb(0 0 0 / 30%);
+  background-color: rgb(255, 102, 0);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 102, 0) 40%,
+    rgb(240, 70, 0)
+  );
+}
+
+.header-container {
+  display: flex;
+  margin: 0 48px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+  .header-container {
+    margin: 0 36px;
+  }
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-logo {
+  border: 2px solid;
+  height: 30px;
+  width: 30px;
+  border-color: white;
+}
+
+.header-title {
+  color: white;
+}
